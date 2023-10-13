@@ -1,0 +1,324 @@
+.App {
+  text-align: center;
+  background-image: url('https://conveytechlabs.com/optcpthub/assets/img/banners/banner.jpg' );
+ 
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+}
+
+nav{
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0px;
+  
+ 
+
+}
+
+a{
+  font-size: 1rem;
+  color: black;
+  text-decoration: none;
+  
+}
+
+a:hover{
+  
+  color: turquoise;
+  
+  
+}
+
+.image-logo{
+  width: 130px;
+  height: 50px;
+}
+
+.forget{
+  color: blue;
+}
+.forget:hover{
+  color: rgb(140, 140, 209);
+}
+
+form{
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  margin: 80px;
+  padding: 60px;
+  box-shadow: 2px 2px 2px 2px white;
+  
+  
+
+}
+form div{
+  margin: 30px;
+}
+
+input{
+  background-color: lightgrey;
+  width: 250px;
+  height: 30px;
+}
+
+.remember{
+  position: relative;
+
+  bottom: 10px;
+}
+.remember-box{
+  width: 20px;
+  color: a;
+}
+
+
+
+
+.onetwo{
+  background-color: black;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+ align-items: center;
+color: white;
+flex-wrap: wrap;
+
+  
+  
+}
+
+.icon{
+  position: relative;
+  top: 2px;
+}
+
+.for-employes{
+  background-color: aqua;
+  border-radius: 40px 40px 40px;
+  height: 28px;
+  width: 160px;
+  
+}
+
+button{
+  background-color: aqua;
+  border:2px solid black;
+  height: 35px;
+  width: 250px;
+}
+
+button:hover{
+  background-color: aqua;
+  border:2px solid rgb(228, 212, 212);
+ 
+}
+
+/* .employe-list{
+  display: flex;
+  justify-content: center;
+  
+} */
+
+.jobs{
+justify-content: space-around;
+  display: flex;
+  color: blue;
+  background-color: white;
+
+  
+}
+
+#jobs:hover{
+ background-color: aqua;
+ width: 90px;
+ height: 35px;
+
+}
+
+.email-icon{
+  position: relative;
+  right: 115px;
+  top: 28px;
+}
+
+#trainer{
+  background-color: aqua;
+  width: 90px;
+  padding: 3px;
+  border: 1px solid black;
+}
+
+#job-seeker{
+  background-color: aqua;
+  width: 90px;
+  padding: 3px;
+  border: 1px solid black;
+}
+
+.welcome{
+ padding: 200px;
+}
+
+.hire-candidates{
+  background-color: white;
+  
+}
+
+#best-pricing{
+  padding: 50px;
+}
+
+#eco-friendly{
+  position: relative;
+  bottom: 50px;
+
+/* background-color: white; */
+}
+
+.free{
+  border: 2px solid lightgray;
+ 
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  background-color: azure;
+  
+
+}
+
+.silver{
+  border: 2px solid lightgray;
+ 
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  background-color: azure;
+  
+  
+
+}
+
+.basic{
+  border: 2px solid lightgray;
+ 
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  background-color: azure;
+  
+
+}
+
+.unlimited{
+  border: 2px solid lightgray;
+ 
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  background-color: azure;
+  
+
+}
+
+.free-silver-basic{
+  
+  display: flex;
+ justify-content: space-around;
+
+ flex-wrap: wrap;
+
+ 
+
+}
+
+/* .color{
+  background-color: white;
+  padding: 20px;
+
+} */
+.color{
+  background-color: white;
+}
+
+.button1{
+  width: 100px;
+  background-color: white;
+  color: blue;
+
+}
+
+.business-job-search{
+  background-color: rgb(245, 242, 242);
+  /* display: inline-flex;
+  justify-content: space-between; */
+}
+
+.icons-end{
+  width: 60px;
+  height: 60px;
+  color: rgb(103, 97, 97);
+ 
+}
+
+#business{
+  display: inline-block;
+  padding: 25px;
+  margin: 15px;
+  
+  
+}
+
+#yourjob{
+  display: inline-block;
+  padding: 25px;
+  margin: 15px;
+ 
+ 
+
+}
+
+#search{
+ 
+  display: inline-block;
+  padding: 25px;
+  margin: 15px;
+  justify-content: space-between;
+  
+
+}
+
+#icons-2{
+  width: 50px;
+  height: 50px;
+}
+
+.onjob{
+  display: flex;
+ justify-content: space-around;
+
+ flex-wrap: wrap;
+}
+
+.massive-reach{
+  display: inline-block;
+  padding: 25px;
+  margin: 15px;
+  justify-content: space-between;
+}
+
+.easyfast{
+  display: inline-block;
+  padding: 25px;
+  margin: 15px;
+  justify-content: space-between;
+}
+
+.costefficative{
+  display: inline-block;
+  padding: 25px;
+  margin: 15px;
+  justify-content: space-between;
+}
